@@ -7,7 +7,7 @@ const INSTANCE = '7107651396';
 const TOKEN = '85ded0f8b7de4d088928bf9c54b1a9002db2018c2132493ebb';
 const BASE = `https://7107.api.green-api.com/waInstance${INSTANCE}`;
 
-const GEMINI_KEY = 'AQ.Ab8RN6LUkm9YSjsjIECVgrnQfQ8gWS5kxu3qu7BZI-n7RgU-mA';
+const GEMINI_KEY = process.env.GEMINI_KEY;
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
 
 // İşletmenin bilgisi - kendi işine göre düzenle
